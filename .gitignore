@@ -110,3 +110,7 @@ venv.bak/
 *__solved*
 *__draft*
 testing/
+
+# data folders
+homeworks/hw01_classification/FashionMNIST/*
+homeworks/hw01_classification/MNIST/*

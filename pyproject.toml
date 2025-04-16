@@ -1,0 +1,16 @@
+[project]
+name = "ml-course"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11.2"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "matplotlib>=3.10.1",
+    "numpy>=2.2.4",
+    "opencv-contrib-python>=4.11.0.86",
+    "scikit-image>=0.25.2",
+    "torch>=2.6.0",
+    "torchsummary>=1.5.1",
+    "torchvision>=0.21.0",
+]
