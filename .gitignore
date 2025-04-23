@@ -111,6 +111,7 @@ venv.bak/
 *__draft*
 testing/
 
-# data folders
+
+# data folder
 homeworks/hw01_classification/FashionMNIST/*
 homeworks/hw01_classification/MNIST/*
