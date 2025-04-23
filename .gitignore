@@ -115,3 +115,8 @@ testing/
 # data folder
 homeworks/hw01_classification/FashionMNIST/*
 homeworks/hw01_classification/MNIST/*
+**/*/data/*
+**/*/results/*
+
+# catboost info
+**/*/catboost_info
