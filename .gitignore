@@ -117,6 +117,7 @@ homeworks/hw01_classification/FashionMNIST/*
 homeworks/hw01_classification/MNIST/*
 **/*/data/*
 **/*/results/*
+homeworks/hw06/dataset\ 2
 
 # catboost info
 **/*/catboost_info
