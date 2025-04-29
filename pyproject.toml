@@ -6,6 +6,8 @@ readme = "README.md"
 requires-python = ">=3.11.2"
 dependencies = [
     "catboost>=1.2.8",
+    "clip",
+    "ftfy>=6.3.1",
     "ipykernel>=6.29.5",
     "ipywidgets>=8.1.6",
     "matplotlib>=3.10.1",
@@ -13,6 +15,7 @@ dependencies = [
     "opencv-contrib-python>=4.11.0.86",
     "openpyxl>=3.1.5",
     "pandas>=2.2.3",
+    "regex>=2024.11.6",
     "scikit-image>=0.25.2",
     "scikit-learn>=1.6.1",
     "termcolor>=3.0.1",
@@ -20,3 +23,6 @@ dependencies = [
     "torchsummary>=1.5.1",
     "torchvision>=0.21.0",
 ]
+
+[tool.uv.sources]
+clip = { git = "https://github.com/openai/CLIP.git" }
